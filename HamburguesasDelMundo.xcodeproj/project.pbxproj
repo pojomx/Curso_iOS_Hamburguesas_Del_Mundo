@@ -12,6 +12,7 @@
 		A18B68111C6003EB00E4872A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A18B680F1C6003EB00E4872A /* Main.storyboard */; };
 		A18B68131C6003EB00E4872A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A18B68121C6003EB00E4872A /* Assets.xcassets */; };
 		A18B68161C6003EB00E4872A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A18B68141C6003EB00E4872A /* LaunchScreen.storyboard */; };
+		A18B681E1C60051000E4872A /* Datos.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18B681D1C60051000E4872A /* Datos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,8 @@
 		A18B68121C6003EB00E4872A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A18B68151C6003EB00E4872A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A18B68171C6003EB00E4872A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A18B681D1C60051000E4872A /* Datos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Datos.swift; sourceTree = "<group>"; };
+		A18B681F1C60059C00E4872A /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,8 @@
 				A18B68121C6003EB00E4872A /* Assets.xcassets */,
 				A18B68141C6003EB00E4872A /* LaunchScreen.storyboard */,
 				A18B68171C6003EB00E4872A /* Info.plist */,
+				A18B681D1C60051000E4872A /* Datos.swift */,
+				A18B681F1C60059C00E4872A /* MyPlayground.playground */,
 			);
 			path = HamburguesasDelMundo;
 			sourceTree = "<group>";
@@ -137,6 +142,7 @@
 			files = (
 				A18B680E1C6003EB00E4872A /* ViewController.swift in Sources */,
 				A18B680C1C6003EB00E4872A /* AppDelegate.swift in Sources */,
+				A18B681E1C60051000E4872A /* Datos.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

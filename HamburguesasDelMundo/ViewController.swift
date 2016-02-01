@@ -10,6 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var lblHamburguesa: UILabel!
+    
+    @IBOutlet weak var lblPais: UILabel!
+    
+    let paises = ColeccionDePaises()
+    let hamburguesas = ColeccionDeHamburguesa()
+    let colores = ColeccionColores()
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -21,5 +30,13 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func btnHamburguesa_Click(sender: AnyObject) {
+        lblPais.text = "País: " + paises.obtenPais()
+        lblHamburguesa.text = "Hamburguesa: " + hamburguesas.obtenHamburguesa()
+        self.view.backgroundColor = colores.obtenColor()
+    }
+    
+    
+    
 }
 
